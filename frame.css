@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.container {
+  border: 1px solid rgb(231, 231, 231);
+  height: 90%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+
+}
+.list {
+  border-bottom: 1px solid rgb(206, 206, 206);
+  display: flex;
+  justify-content: space-around;
+  list-style: none outside none;
+  padding: 30px 5px 0 5px;
+  font-size: 16px;  
+}
+li > a {
+  text-decoration: none;
+  color: black;
+  padding: 14px;
+  display: inline-block;
+  color: rgb(77, 77, 77); 
+}
+li:hover > a {
+    border-radius: 4px 4px 0 0;
+    background-color: rgb(252, 246, 255);   
+}
+:target {
+    border-bottom: 2px solid rgb(135, 1, 175);     
+}
+.logo {
+  position: relative;
+}
+.logo-img {
+  position: absolute;
+  left: 8px;
+  top: 7px;
+}
+input {
+  padding: 10px 50px 10px 39px;
+  border-radius: 6px;
+  border: 1px solid rgb(231, 231, 231);
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-1 {
+  border: 1px solid rgb(231, 231, 231);
+  position: relative;
+  padding: 10px 40px;
+  border-radius: 6px;
+  background-color: white;
+}
+::placeholder {
+  font-size: 16px;
+}
+.body-content{
+    display: flex;
+    gap: 10px;
+}
+.box {
+  border: 1px solid rgb(231, 231, 231);
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1),
+    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  border-radius: 6px;
+  width: 330px;
+  padding: 24px;
+  list-style: none outside none;
+}
+.badge{
+    padding: 2px 8px;
+    background: #ECFDF3;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #027A48;
+}
+.avatar{
+    width: 24px;
+    height: 24px;
+    background: #F9F5FF;
+    border-radius: 200px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #7F56D9;
+    text-align: center;
+}
+.flex-1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.box > li{
+    margin: 10px;
+}
+.user{
+    margin-bottom: 0;
+}
+.text{
+    font-size: 14px;
+    color: #667085;
+    text-align: center;
+}
+.email{
+    position: relative;
+    top: 1px;
+}
+.row-1{
+    margin: 20px;
+}
+.link{
+    Color: #006699
+}
+
